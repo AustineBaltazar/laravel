@@ -77,6 +77,7 @@
             <th rowspan="2" colspan="3" style="font-weight: normal;">Account Code</th>
             <th rowspan="2" colspan="2" style="font-weight: normal;">PR</th>
             <th colspan="6" style="font-weight: normal;">Amount</th>
+
         </tr>
         <tr style="font-size: 13px; font-weight: normal; font-family: Calibri, sans-serif;">
             <th colspan="3" style="font-weight: normal;">Debit</th>

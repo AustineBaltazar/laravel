@@ -32,11 +32,11 @@
             <th style="width: 15%;">BRAND</th>
         </tr>
 
-        <!-- table loop -->
+        <!-- table loop change base how many data-->
         @for ($i = 0; $i < 40; $i++)
             <tr style="font-family:Arial, Helvetica, sans-serif;">
             <td colspan="2" style="height: 1%; word-break: break-word; width: 15%;">PG-2002-AAA</td><!-- table for stock no. -->
-            <td colspan="3" style="word-break: break-word; width: 45%;"></td><!-- table for item description. -->
+            <td colspan="3" style="word-break: break-word; width: 45%;">this is description</td><!-- table for item description. -->
             <td style="text-align: center; word-break: break-word; width: 25%;"></td><!-- table for unit. -->
             <td style="text-align: center; word-break: break-word; width: 25%;"></td><!-- table for brand. -->
             </tr>

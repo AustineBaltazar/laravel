@@ -51,6 +51,7 @@
                 <div style="font-family:Arial, Helvetica, sans-serif; display: flex; font-style:italic; font-weight:100; padding-bottom: 3px; font-weight:normal; align-items: center; justify-content: space-between; width: 100%;">
                     <span>Payee:______________________________________</span>
                     <span>Amount: ________________</span>
+
                 </div>
             </td>
         </tr>

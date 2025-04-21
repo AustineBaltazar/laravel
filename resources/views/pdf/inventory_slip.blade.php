@@ -33,6 +33,7 @@
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 5px; padding-bottom: 3px;">
                             <span style="margin: 0;"><strong>Fund:</strong> ____________________________________</span>
                             <span style="margin: 0; text-align: right; padding-left: 30%;"><strong style="padding-left: 30%; ">ICS No:</strong> ______________________</span>
+
                         </div>
                     </div>
 

@@ -39,6 +39,16 @@
         <a href="#" class="btn btn-dark mt-3" data-pdf="{{ url('/pdf/first-salary') }}" onclick="showPdf(this)">View First Salary PDF</a>
         <a href="#" class="btn btn-info mt-3" data-pdf="{{ url('/pdf/honoraria') }}" onclick="showPdf(this)">View Honoraria PDF</a>
         <a href="#" class="btn btn-danger mt-3" data-pdf="{{ url('/pdf/insurance_expenses') }}" onclick="showPdf(this)">View Insurance Expenses PDF</a>
+        <a href="#" class="btn btn-success mt-3" data-pdf="{{ url('/pdf/wmr') }}" onclick="showPdf(this)">View WMR PDF</a>
+        <a href="#" class="btn btn-primary mt-3" data-pdf="{{ url('/pdf/rsmi') }}" onclick="showPdf(this)">View RSMI PDF</a>
+        <a href="#" class="btn btn-secondary mt-3" data-pdf="{{ url('/pdf/check_register') }}" onclick="showPdf(this)">View Check Register PDF</a>
+        <a href="#" class="btn btn-warning mt-3" data-pdf="{{ url('/pdf/iot') }}" onclick="showPdf(this)">View IOT PDF</a>
+        <a href="#" class="btn btn-dark mt-3" data-pdf="{{ url('/pdf/cj') }}" onclick="showPdf(this)">View CJ PDF</a>
+        <a href="#" class="btn btn-danger mt-3" data-pdf="{{ url('/pdf/checkdj') }}" onclick="showPdf(this)">View CheckDJ PDF</a>
+        <a href="#" class="btn btn-primary mt-3" data-pdf="{{ url('/pdf/cashdj') }}" onclick="showPdf(this)">View CashDJ PDF</a>
+        <a href="#" class="btn btn-secondary mt-3" data-pdf="{{ url('/pdf/rci38') }}" onclick="showPdf(this)">View RCI 38 PDF</a>
+        <a href="#" class="btn btn-info mt-3" data-pdf="{{ url('/pdf/rci46') }}" onclick="showPdf(this)">View RCI 46 PDF</a>
+        <a href="#" class="btn btn-primary mt-3" data-pdf="{{ url('/pdf/checkdr') }}" onclick="showPdf(this)">View Check DR PDF</a>
 
 
 

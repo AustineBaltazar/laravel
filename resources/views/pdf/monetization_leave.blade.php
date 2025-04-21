@@ -95,9 +95,7 @@
 
         @foreach ($loopTexts as $text)
         <tr>
-            <td style="width: 15%; font-size: 20px; text-align: center;">
-                <input type="checkbox" style="width: 20px; height: 20px; cursor: pointer;">
-            </td> <!--second blank table for checkbox-->
+            <td style="width: 15%; font-size: 20px; text-align: center;"></td> <!-- second blank table for checkbox-->
             <td colspan="3" style="text-align: left; height: 2%; font-size: 15px; font-family: Arial, Helvetica, sans-serif">
                 {{ $text }} <!--second text box -->
             </td>

@@ -96,4 +96,83 @@ class PDFController extends Controller
         return response($pdf->output())
             ->header('Content-Type', 'application/pdf');
     }
+
+    public function generateWMRPDF()
+    {
+        $pdf = Pdf::loadView('pdf.wmr');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateRSMIPDF()
+    {
+        $pdf = Pdf::loadView('pdf.rsmi');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateCheckRegisterPDF()
+    {
+        $pdf = Pdf::loadView('pdf.check_register');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateIOTPDF()
+    {
+        $pdf = Pdf::loadView('pdf.iot');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateCJPDF()
+    {
+        $pdf = Pdf::loadView('pdf.cj')
+            ->setPaper('a4', 'landscape'); // <-- This sets A4 landscape
+
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+
+    public function generateCheckDJPDF()
+    {
+        $pdf = Pdf::loadView('pdf.checkdj')
+            ->setPaper('a4', 'landscape'); // <-- This sets A4 landscape
+
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateCashDJPDF()
+    {
+        $pdf = Pdf::loadView('pdf.cashdj')
+            ->setPaper('a4', 'landscape'); // <-- This sets A4 landscape
+
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateRCI38PDF()
+    {
+        $pdf = Pdf::loadView('pdf.rci38');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateRCI46PDF()
+    {
+        $pdf = Pdf::loadView('pdf.rci46')
+            ->setPaper('a4', 'landscape'); // <-- This sets A4 landscape
+
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateCheckDRPDF()
+    {
+        $pdf = Pdf::loadView('pdf.checkdr');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
 }
