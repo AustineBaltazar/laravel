@@ -175,4 +175,20 @@ class PDFController extends Controller
         return response($pdf->output())
             ->header('Content-Type', 'application/pdf');
     }
+
+    public function generateCafoaPDF()
+    {
+        $pdf = Pdf::loadView('pdf.cafoa');
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
+
+    public function generateRoutingSlipPDF()
+    {
+        $pdf = Pdf::loadView('pdf.routing_slip')
+            ->setPaper('a4', 'landscape'); // <-- This sets A4 landscape
+
+        return response($pdf->output())
+            ->header('Content-Type', 'application/pdf');
+    }
 }

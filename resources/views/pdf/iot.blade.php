@@ -170,7 +170,7 @@
             <!-- Another "Prepared by" section for confirmation -->
             <tr>
                 <td colspan="25" style="width: 40%; vertical-align: top; font-size: 13px">
-                    <strong>Prepared by:</strong>
+                    <strong>Approved by:</strong>
                     <div style="text-align: center; margin-top: 10px; padding-bottom: 10px">
                         <div style="border-bottom: 1px solid #000; width: 60%; margin: 0 auto; height: 20px;"></div>
                         <span>Signature over Printed Name</span>

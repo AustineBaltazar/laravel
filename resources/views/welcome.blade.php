@@ -49,6 +49,8 @@
         <a href="#" class="btn btn-secondary mt-3" data-pdf="{{ url('/pdf/rci38') }}" onclick="showPdf(this)">View RCI 38 PDF</a>
         <a href="#" class="btn btn-info mt-3" data-pdf="{{ url('/pdf/rci46') }}" onclick="showPdf(this)">View RCI 46 PDF</a>
         <a href="#" class="btn btn-primary mt-3" data-pdf="{{ url('/pdf/checkdr') }}" onclick="showPdf(this)">View Check DR PDF</a>
+        <a href="#" class="btn btn-warning mt-3" data-pdf="{{ url('/pdf/cafoa') }}" onclick="showPdf(this)">View CAFOA PDF</a>
+        <a href="#" class="btn btn-secondary mt-3" data-pdf="{{ url('/pdf/routing_slip') }}" onclick="showPdf(this)">View Routing Slip PDF</a>
 
 
 

@@ -33,3 +33,5 @@ Route::get('/pdf/cashdj', [PDFController::class, 'generateCashDJPDF']);
 Route::get('/pdf/rci38', [PDFController::class, 'generateRCI38PDF']);
 Route::get('/pdf/rci46', [PDFController::class, 'generateRCI46PDF']);
 Route::get('/pdf/checkdr', [PDFController::class, 'generateCheckDRPDF']);
+Route::get('/pdf/cafoa', [PDFController::class, 'generateCafoaPDF']);
+Route::get('/pdf/routing_slip', [PDFController::class, 'generateRoutingSlipPDF']);
